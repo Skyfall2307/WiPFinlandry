@@ -87,7 +87,6 @@ body {
   margin-bottom: 1.2rem;
 }
 
-/* Contact Form */
 form {
   display: flex;
   flex-direction: column;
@@ -150,7 +149,6 @@ button:hover {
   color: red;
 }
 
-/* Footer */
 .footer {
   text-align: center;
   font-size: 0.9rem;
