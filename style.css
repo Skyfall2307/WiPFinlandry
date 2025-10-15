@@ -27,17 +27,6 @@ body {
   margin-bottom: 3rem;
 }
 
-.logo-wrapper {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-
-.logo-img {
-  width: 100px;
-  height: auto;
-}
-
 .hero p {
   font-size: 1.1rem;
   color: #eee;
@@ -87,6 +76,7 @@ body {
 .section-card h2 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .section-card p {
