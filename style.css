@@ -16,6 +16,9 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 2rem 1rem;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+  background-color: #f5f5f5;
 }
 
 .hero {
@@ -49,7 +52,7 @@ body {
 }
 
 .cta {
-  background: #6c63ff;
+  background: #444;
   color: white;
   text-decoration: none;
   font-weight: 600;
@@ -62,7 +65,7 @@ body {
 }
 
 .cta:hover {
-  background: #5146d7;
+  background: #222;
 }
 
 .section-card {
