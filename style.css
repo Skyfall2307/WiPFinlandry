@@ -137,6 +137,13 @@ textarea {
   color: red;
 }
 
+.registration-note {
+  text-align: center;
+  margin-top: 2rem;
+  color: black;
+  font-size: 0.95rem;
+}
+
 .footer {
   text-align: center;
   font-size: 0.9rem;
