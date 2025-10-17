@@ -60,6 +60,13 @@ body {
   white-space: nowrap;
 }
 
+.cta,
+button.cta {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
 .cta:hover {
   background: #222 !important;
 }
