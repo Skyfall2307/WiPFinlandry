@@ -84,24 +84,21 @@
     <a href="https://www.linkedin.com/in/kfonteyn/" target="_blank">Connect on Linkedin</a>
   </div>
 
-  <script>
+<script>
   document.getElementById("registration-form").addEventListener("submit", function(e) {
     e.preventDefault(); // prevent default form submission
 
     const form = e.target;
     const formData = new FormData(form);
 
-    fetch("https://script.google.com/macros/s/AKfycbzJkR2rrqTO-2Zj3bkKchXWOcGiO2-l85B-lsWHUJTWg7Kd6xCwjgxN2yknjRQg0R7Ihg/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbw0--XER0hGY5xKSQvjo1OkGxhKDFc7NPvYLeynd5SKu4jcyIG30DjBG4qJUl0u8mmc/exec", {
       method: "POST",
       body: formData
     })
     .then(response => response.text())
     .then(text => {
-      if (text.includes("Success")) {
-        window.location.href = "thankyou.html"; // redirect to thank you page
-      } else {
-        alert("There was a problem submitting the form. Please try again.");
-      }
+      console.log("Response from script:", text);
+      window.location.href = "thankyou.html"; // redirect regardless of response
     })
     .catch(error => {
       console.error("Error!", error.message);
