@@ -4,7 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Membership Registration – WiP Finland</title>
-  style.css
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://script.google.com/macros/s/AKfycbzJkR2rrqTO-2Zj3bkKchXWOcGiO2-l85B-lsWHUJTWg7Kd6xCwjgxN2yknjRQg0R7Ihg/exec" rel="stylesheet" />
+
+  
 </head>
 <body>
   <div class="container">
@@ -12,15 +15,14 @@
       <h1>Membership Registration</h1>
       <p>Empowering Women. Elevating Procurement. Building Community.</p>
       <div class="button-group">
-        index.htmlBack to Home</a>
+        <a href="index.html" class="cta">Back to Home</a>
       </div>
     </div>
 
     <div class="section-card" id="registration">
       <h2>Become a Member</h2>
-      <p>Join WiP Finland ry for the 2025–2026 term. Membership for the 2025–2026 term is <strong>free of charge</strong>. Please fill out the form below to register as a member of WiP Finland ry.</p>
 
-      https://script.google.com/macros/s/AKfycbzJkR2rrqTO-2Zj3bkKchXWOcGiO2-l85B-lsWHUJTWg7Kd6xCwjgxN2yknjRQg0R7Ihg/exec
+      <form action="https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec" method="POST">
         <label for="first-name">First Name<span class="required-star">*</span></label>
         <input type="text" id="first-name" name="first_name" required />
 
@@ -49,27 +51,25 @@
         <textarea id="additional" name="additional_comments" rows="3"></textarea>
 
         <div class="button-group">
-          association-policy.htmlRead Association Policy</a>
+          <a href="association-policy.html" class="cta" target="_blank">Read Association Policy</a>
         </div>
 
         <div class="gdpr-checkbox">
           <input type="checkbox" id="gdpr" name="gdpr_consent" required />
           <label for="gdpr">
             I agree to the processing of my personal data in accordance with the
-            https://gdpr.eu/GDPR</a>.<span class="required-star">*</span>
+            <a href="https://gdpr.eu/" target="_blank">GDPR</a>.<span class="required-star">*</span>
           </label>
         </div>
 
         <div class="gdpr-checkbox">
           <input type="checkbox" id="policy" name="policy_consent" required />
           <label for="policy">
-            I confirm that I have read and agree to the association-policy.htmlAssociation Policy</a>.<span class="required-star">*</span>
+            I confirm that I have read and agree to the <a href="association-policy.html" target="_blank">Association Policy</a>.<span class="required-star">*</span>
           </label>
         </div>
-
-        <div class="button-group">
-          <button type="submit" class="cta">Submit Registration</button>
-        </div>
+<div class="button-group">
+        <button type="submit" class="cta">Submit Registration</button> </div>
       </form>
     </div>
   </div>
@@ -80,7 +80,7 @@
 
   <div class="footer">
     &copy; 2025 Katarzyna Anna Fonteyn. All rights reserved.
-    https://www.linkedin.com/in/kfonteyn/
+    <a href="https://www.linkedin.com/in/kfonteyn/" target="_blank">Connect on Linkedin</a>
   </div>
 </body>
 </html>
